@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020303;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    padding: 30px 0;
+    background-color: #020303;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    margin-left: 281px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 29px;
+
+}
+
+.menu ul li:first-child {
+    margin-left: 0;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid #ffaf18;
+    color: #ffaf18;
+}
+
+.main {
+    padding: 133px 0 100px 0;
+}
+
+.main-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 556px;
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.main h1 {
+    font-size: 44px;
+    line-height: 1.222;
+    margin-bottom: 74px;
+    display: inline-block;
+}
+
+.main-info h1 span {
+    color: #ffaf18;
+}
+
+.more {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 490px;
+    margin-bottom: 92px;
+}
+
+.main-items {
+    margin-bottom: 92px;
+}
+
+.main-item {
+    font-size: 16px;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.main-item:first-child {
+    margin-right: 100px;
+}
+
+.main-item img {
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.button {
+    color: rgb(2, 3, 3);
+    background-color: rgb(255, 175, 24);
+    border-radius: 30px;
+    width: 224px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    box-shadow: rgb(255, 175, 24) 0 5px 15px 0;
+}
+
+.main-button {
+    width: 224px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.food {
+    padding: 100px 0 120px 0;
+}
+
+.food h2 {
+    font-size: 35px;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.food-items {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.food-items .item:first-child, .food-items .item:last-child {
+    border-width: 5px;
+    border-color: rgb(237, 155, 0);
+    border-style: solid;
+    padding: 5px 15px 10px;
+}
+
+.food-items .item {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 20px 15px;
+    margin: 12px;
+    background-color: rgb(255, 255, 255);
+    width: 272px;
+}
+
+.food-items .item:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.food-items .item .name {
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.food-items .item p {
+    display: inline-block;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    max-width: 242px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.button-menu {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.about {
+    padding-top: 120px;
+}
+
+.about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.about-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 367px;
+}
+
+.about-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 60px;
+}
+
+.about-info h2 {
+    display: inline-block;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    line-height: 1.286;
+    margin-bottom: 60px;
+}
+
+.about-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 103px;
+}
+
+.about-text span {
+    white-space: nowrap;
+}
+
+.about-more {
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.about .actions {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.icon:not(:last-child) {
+    margin-right: 40px;
+}
+
+.icon:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.icon:visited {
+    background-color: rgb(190, 190, 190);
+}
+
+.icon:active {
+    background-color: rgb(255, 175, 24);
+}
+
+.icon .Onigiri {
+    margin: 13px 7px;
+}
+
+.icon .Sushi {
+    margin: 11px 9px 10px 12px;
+}
+
+.icon .Tuna {
+    margin: 14px 7px;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+.footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 390px;
+}
+
+.footer-logo .logotype {
+    vertical-align: bottom;
+    margin-right: 11px;
+}
+
+.footer-text {
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+
+}
+
+
+
+
+
+
+
+
+
+
